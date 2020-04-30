@@ -22,7 +22,7 @@ app.use(function(req,res){
     res.json(err)
 })
 
-
+//Mongo connection 
 const mongoose=require('mongoose')
 
 mongoose.connect('mongodb://localhost:27017/mypage',{useNewUrlParser:true})
